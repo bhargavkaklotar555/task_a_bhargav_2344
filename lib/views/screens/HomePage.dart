@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          contact_controller.insert_contact(name: "rahul", number: "987654321");
+          contact_controller.insert_contact(name: "ved", number: "989654321");
           log("added!!");
         },
         child: Icon(Icons.add),
