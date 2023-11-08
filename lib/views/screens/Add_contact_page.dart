@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
@@ -27,22 +28,24 @@ class Add_Contact extends StatelessWidget {
           children: [
             TextFormField(
               controller: name,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 hintText: "Enter The Name",
                 border: OutlineInputBorder(),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
             TextFormField(
               controller: number,
-              decoration: InputDecoration(
-                hintText: "Enter The Number",
+              maxLength: 10,
+              inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+              decoration: const InputDecoration(
+                hintText: "Enter Mobile Number",
                 border: OutlineInputBorder(),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
             GestureDetector(

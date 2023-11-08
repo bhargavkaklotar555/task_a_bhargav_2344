@@ -40,6 +40,12 @@ dependencies:
   animated_splash_screen:
   google_sign_in:
   path:
+  provider:
+  font_awesome_flutter:
+  url_launcher:
+  flutter_phone_direct_caller: any
+  flutter_plugin_openwhatsapp: ^0.0.2
+  connectivity_plus: 
 
 
 dev_dependencies:
