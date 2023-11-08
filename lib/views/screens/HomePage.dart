@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:task_a_bhargav_2344/controller/Contact_Controller.dart';
 import 'package:task_a_bhargav_2344/helper/Contact_Helper.dart';
+import 'package:task_a_bhargav_2344/utils/Routes.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
@@ -19,6 +20,13 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("HomePage"),
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.of(context).pushNamed(MyRoutes.Add_Contact);
+              },
+              icon: Icon(Icons.navigate_next))
+        ],
       ),
       body: Padding(
         padding: EdgeInsets.all(16),
@@ -68,8 +76,7 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          contact_controller.insert_contact(name: "ved", number: "989654321");
-          log("added!!");
+          Navigator.of(context).pushNamed(MyRoutes.Add_Contact);
         },
         child: Icon(Icons.add),
       ),

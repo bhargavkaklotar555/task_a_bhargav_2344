@@ -5,6 +5,7 @@ import 'package:task_a_bhargav_2344/helper/Contact_Helper.dart';
 import 'package:task_a_bhargav_2344/utils/Routes.dart';
 import 'package:task_a_bhargav_2344/views/screens/HomePage.dart';
 import 'package:task_a_bhargav_2344/views/screens/Splash_Screen.dart';
+import 'package:task_a_bhargav_2344/views/screens/add_contact_page.dart';
 
 import 'controller/Contact_Controller.dart';
 
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
       routes: {
         MyRoutes.HomePage: (context) => HomePage(),
         MyRoutes.Splash_Screen: (context) => const Splash_Screen(),
+        MyRoutes.Add_Contact: (context) => Add_Contact(),
       },
     );
   }
