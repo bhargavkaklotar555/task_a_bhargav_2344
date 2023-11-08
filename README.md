@@ -26,6 +26,7 @@ The app features an eye-catching splash screen that captivates users from the mo
 Project Technologies:
 - Dart language
 - Flutter framework with MVC and Provider architecture
+- CRUD Oeration
 
 Project Evaluation:
 - User satisfaction with the application’s functionality and UI/UX
