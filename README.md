@@ -16,9 +16,12 @@ We can Add or delete contact
 Can direct chat and message
 
 Project Objectives:
-SQLite Database: The app utilizes SQLite Database to efficiently store and manage the contacts.contacts inserted into a table, enabling seamless access and retrieval of the quote data. The database allows for efficient categorization and management of the contacts
 
-Splash Screen: The app features an eye-catching splash screen that captivates users from the moment they launch the app. The splash screen can showcase inspiring visuals or animations, setting a positive and motivational tone for the user experience.
+SQLite Database: 
+The app utilizes SQLite Database to efficiently store and manage the contacts.contacts inserted into a table, enabling seamless access and retrieval of the quote data. The database allows for efficient categorization and management of the contacts
+
+Splash Screen:
+The app features an eye-catching splash screen that captivates users from the moment they launch the app. The splash screen can showcase inspiring visuals or animations, setting a positive and motivational tone for the user experience.
 
 Project Technologies:
 - Dart language
