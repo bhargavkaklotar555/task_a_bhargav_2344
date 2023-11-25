@@ -1,4 +1,4 @@
-Applicatio Name My Contact
+Application Name My Contact
 
 My Contact" is a versatile Flutter app designed to simplify your communication and contact management needs. With this app, you can effortlessly add and delete contacts, initiate phone calls, and stay connected through direct chats and messaging
 
